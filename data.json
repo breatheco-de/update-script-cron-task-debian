@@ -1,0 +1,11 @@
+{
+  "crontabData": [
+    "@reboot /home/deb/Escritorio/cybersecurity-scripts/.sync-scripts.sh"
+  ],
+  "scriptFile": "/home/deb/myscript.sh",
+  "timestamp": "2024-04-28 23:11:26",
+  "updateData": [
+    "Acceso: 2024-04-28 21:12:45.945003168 -0400",
+    "Modificación: 2024-04-28 21:03:57.617003168 -0400"
+  ]
+}

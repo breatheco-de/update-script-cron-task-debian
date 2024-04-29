@@ -1,0 +1,20 @@
+{
+  "language": "node",
+  "title": {
+    "us": "Creating an update system script for Debian",
+    "es": "Creando un script de actualizar el sistema para Debian"
+  },
+  "grading": "isolated",
+  "difficulty": "easy",
+  "duration": 2,
+  "description": "",
+  "slug": "creating-an-update-system-script-for-debian",
+  "gitpod": false,
+  "telemetry": {
+    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+  },
+  "repository": "https://github.com/4GeeksAcademy/update-script-cron-task-debian",
+   "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+  "skills": ["cybersecurity"],
+  "graded": true
+}
