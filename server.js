@@ -42,7 +42,6 @@ app.post("/", async (req, res) => {
   res.status(200).send({ message: "JSON saved successfully" });
 });
 
-//app.listen(3001,()=>{console.log("Listening")})
 app.listen(process.env.HOST_PORT, () => {
   let text = `
   /* Your url is:
