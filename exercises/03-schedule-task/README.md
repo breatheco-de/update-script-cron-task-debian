@@ -1,17 +1,17 @@
-# `03` Programa la tarea
+# `03` Schedule the task
 
-Una vez que ya tu script funcione correctamente puedes pasar al siguiente paso para automatizar su ejecución cada cierto tiempo. Para ello debes crear una tarea cron e indicar que ejecute el script de actualización todos los días.
+Once your script is working properly you can move on to the next step to automate its execution from time to time. To do this you must create a cron job and tell it to run the update script every day.
 
-## 📝 Instrucciones:
+## 📝 Instructions:
 
-1. Crea una tarea cron que ejecute el script de actualización todos los días a la media noche.
+1. Create a cron job that runs the update script every day at midnight.
 
-2. Debe volcar la salida del script hacia el archivo `/var/log/actualizacion-servidor.log`
+2. You must dump the output of the script to the `/var/log/update-server.log` file.
 
-3. Debe volcar la salida de errores del script hacia el archivo `/var/log/actualizacion-servidor-error.log`
+3. Dump the error output of the script to the `/var/log/update-server-error.log` file.
 
 ## 💡 Hint:
 
-> El manual de crontab (tipea en la consola `man crontab`) no solo contiene información del comando en específico, sino también como funcionan todas las tareas programadas en general, puedes encontrar ahi muchas información útil.
+> The crontab manual (type in the console `man crontab`) contains not only information about the specific command, but also how all scheduled tasks work in general, you can find a lot of useful information there.
 >
-> Recuerda que puedes usar los caracteres `>>` para redirigir la salida de un comando a un archivo, asi como `2>` para redirigir la salida de errores.
+> Remember that you can use the `>>` characters to redirect the output of a command to a file, as well as `2>>` to redirect error output.

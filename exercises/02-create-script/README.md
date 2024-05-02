@@ -1,21 +1,21 @@
-# `02` Crea el script
+# `02` Create the script
 
-En entornos GNU/Linux un script es un simple archivo de texto, que esta pensado para ser ejecutado por la terminal. Dicho de otra forma, cada una de las líneas del script se ejecutarán en la terminal como si alguien las transcribiera una a una.
+In GNU/Linux environments a script is a simple text file, which is intended to be executed by the terminal. In other words, each of the lines of the script will be executed in the terminal as if someone transcribed them one by one.
 
-Para ello podemos usar nano en la terminal o el editor de texto que tenemos en el menú de aplicaciones, lo importante es crear el archivo con las instrucciones que queremos que se ejecuten. 
+For this we can use nano in the terminal or the text editor that we have in the applications menu, the important thing is to create the file with the instructions that we want to be executed.
 
-Antes de probar tu script debes especificar que el archivo tiene permisos de ejecución y esta es una tarea para el usuario root.
+Before testing your script you must specify that the file has execution permissions and this is a task for the root user.
 
-## 📝 Instrucciones:
+## 📝 Instructions:
 
-1. Crea un script que actualice la lista de paquetes disponibles y haga una actualización de todos ellos.
+1. Create a script that updates the list of available packages and does an update of all of them.
 
-2. Asi como muchas otras, esta tarea habitualmente puede requerir confirmación del usuario. Para automatizar la actualización debes omitir la confirmación.
+2. Like many others, this task may usually require confirmation from the user. To automate the update you should skip the confirmation.
 
-3. Debes ejecutar el script con privilegios de root.
+3. You must run the script with root privileges.
 
 ## 💡 Hint:
 
-> - Prueba ejecutar cada comando por separado antes de unir todo en el script
+> - Try executing each command separately before merging everything into the script
 >
-> - Casi todos los comandos tienen un manual integrado, solo escribe 'man' antes del comando y ve la documentación. Ejemplo 'man ls'
+> - Almost all commands have a built-in manual, just type 'man' before the command and see the documentation. Example 'man ls'

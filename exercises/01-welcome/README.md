@@ -1,7 +1,7 @@
-# `01` Bienvenida
+# `01` Welcome
 
-En ésta práctica crearas un script que realice actualizaciones en el sistema y deberás agregar una tarea cron para ejecutarla periodicamente.
+In this practice you will create a script that performs updates on the system and you must add a cron job to run it periodically.
 
-Esta es una tarea recurrente en los centros de datos y muy relevante para ciberseguridad, sin embargo asi como ésta, tambien se pueden automatizar otras tareas cuando sea conveniente.
+This is a recurring task in data centers and very relevant for cybersecurity, however as well as this, you can also automate other tasks when it is convenient.
 
-Empezemos...
+Let's get started...

@@ -1,36 +1,30 @@
 ---
-title: "Creando una red NAT en VirtualBox"
-subtitle: "Realizarás una red privada entre maquinas virtuales con traducción hacia la red del anfitrión, en lo que se conoce como una 'Red NAT'."
-tags: ["cybersecurity"]
+title: "Script de actualización para Debian"
+subtitle: "Crea un script que actualice el sistema y configura que sea ejecutado diariamente para mantener tu servidor al dia"
+tags: ["ciberseguridad"]
 authors: ["arnaldoperez"]
 ---
 
 # Networking on VirtualBox
 
 <!-- hide -->
-<a href="https://www.4geeksacademy.co"><img height="280" align="right" src="https://github.com/4GeeksAcademy/installing-windows-on-virtual-machine/blob/master/js-bg-badge.png"></a>
-
-> By [@arnaldoperez](https://github.com/arnaldoperez) and [other contributors](https://github.com/4GeeksAcademy/networks-on-virtualbox/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
+> By [@arnaldoperez](https://github.com/arnaldoperez) and [other contributors](https://github.com/4GeeksAcademy/update-script-cron-task-debian/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/installing-windows-on-virtual-machine)
 [![build by developers](https://img.shields.io/badge/build_by-Developers-blue)](https://4geeks.com)
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
-*Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/networks-on-virtualbox/blob/master/README.es.md) :es:*
+*These instructior [are also available in english](https://github.com/4GeeksAcademy/update-script-cron-task-debian/blob/master/README.md)*
 <!-- endhide -->
 
-## Consigna
+Para esta práctica debes importar una máquina virtual que hemos preparado para ti. Viene con Debian instalado y tiene algunas configuraciones básicas que se utilizarán a lo largo del bootcamp. Por lo demás es una máquina Debian normal como cualquier otra, y será un espacio importante donde aprenderás a utilizar sistemas GNU/Linux de forma segura para su uso en entornos de red como servidor.
 
-El estudiante debe crear un script en bash para actualizar la lista de repositorios y los paquetes. El script debe tener permisos de ejecución y el usuario debe estar en el grupo sudoers
+[Descarga aquí](https://drive.google.com/file/d/1MiV1F_W9TWsP0saKF_IMTahSs4bwrFe7/view?usp=drive_link) el fichero que debes importar a VirtualBox para crear la máquina virtual Debian. Es un fichero pesado, por lo que es recomendable descargarlo con antelación para ahorrar tiempo a la hora de realizar la práctica.
 
-## Entregable
-
-- Archivo con el script
-- Demostración de su funcionamiento
-
-## TODO:
-
-- Repo con instrucciones
+> **Informacion de acceso la máquina Debian**<br>
+**Usuario**: deb<br>
+**Clave**: 123456<br>
+**ClaveRoot**: 123456
 
 <!-- hide -->
 
@@ -38,13 +32,19 @@ El estudiante debe crear un script en bash para actualizar la lista de repositor
 
 > ¡Te necesitamos! Estos ejercicios se crean y mantienen en colaboración con personas como tú. Si encuentras algún error o falta de ortografía, contribuye y/o repórtalo.
 
-## Instalación en un clic (recomendado)
+<!-- endhide -->
+
+## 🌱 ¿Cómo empezar este proyecto?
+
+Primero crea un fork del repo [4GeeksAcademy/update-script-cron-task-debian](https://github.com/4GeeksAcademy/update-script-cron-task-debian/fork). NEcesitarás tu propio fork para poder entregar tus resultados. Luego de eso tienes un par de opciones
+
+### Instalación en un clic (recomendado)
 
 Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/html-forms-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/html-forms-tutorial-exercises.git).
 
 > Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
-## Instalación local:
+### Instalación local:
 
 Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
 
@@ -70,17 +70,7 @@ $ cd html-forms-tutorial-exercises
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
-<!-- endhide -->
-
-## ¿Cómo están organizados los ejercicios?
-
-Cada ejercicio es una pequeña aplicación de React que contiene los siguientes archivos:
-
-1. **index.js:** representa el archivo de entrada para toda la aplicación.
-2. **README.md:** contiene las instrucciones de los ejercicios.
-3. **test.js:** no tienes que abrir este archivo, contiene el script del test para el ejercicio.
-
-> Nota: Los ejercicios son autograduados, pero los tests son muy rígidos y estrictos, mi recomendación es que no prestes demasiada atención a los tests y los uses solo como una sugerencia o podrías frustrarte.
+<!-- hide -->
 
 ## Colaboradores
  
@@ -94,4 +84,4 @@ Gracias a estas personas maravillosas ([emoji key](https://github.com/kentcdodds
 
 Este proyecto sigue la especificación [all-contributors](https://github.com/kentcdodds/all-contributors). ¡Todas las contribuciones son bienvenidas!
 
-Este y otros ejercicios son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).
+Este y otros ejercicios son usados para [aprender a programar](https://4geeksacademy.com/es/aprender-a-programar/aprender-a-programar-desde-cero) por parte de los alumnos de 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) realizado por [Alejandro Sánchez](https://twitter.com/alesanchezr) y muchos otros contribuyentes. Conoce más sobre nuestros [Cursos de Programación](https://4geeksacademy.com/es/curso-de-programacion-desde-cero?lang=es) para convertirte en [Full Stack Developer](https://4geeksacademy.com/es/coding-bootcamps/desarrollador-full-stack/?lang=es), o nuestro [Data Science Bootcamp](https://4geeksacademy.com/es/coding-bootcamps/curso-datascience-machine-learning).Tambien puedes adentrarte al mundo de ciberseguridad con nuestro [Bootcamp de ciberseguridad](https://4geeksacademy.com/es/coding-bootcamps/curso-ciberseguridad). <!-- endhide -->

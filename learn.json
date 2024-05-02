@@ -7,7 +7,10 @@
   "grading": "isolated",
   "difficulty": "easy",
   "duration": 2,
-  "description": "",
+  "description":  {
+    "us": "Creating an update system script for Debian",
+    "es": "Creando un script de actualizar el sistema para Debian"
+  },
   "slug": "creating-an-update-system-script-for-debian",
   "gitpod": false,
   "telemetry": {

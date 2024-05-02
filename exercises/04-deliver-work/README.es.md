@@ -1,4 +1,4 @@
-# `05` Valida tu trabajo
+# `05` Entrega tu trabajo
 
 Este paso es consiste en ejecutar un script de verificación para validar lo solicitado en ésta práctica, para ello sigue los siguientes pasos:
 
@@ -10,7 +10,7 @@ Para ello selecciona la pestaña "Puertos" en el panel inferior de codespace, ah
 
 ![Puerto público](../../.learn/assets/public-ports.png)
 
-## 2. Ejecuta el script de validación
+## 2. Ejecuta el script de validación `validate-update-script.sh`
 
 Una vez que hayas ejecutado el script para verlo funcionar, y lo hayas agregado las tareas cron, es hora de validar.
 
@@ -18,14 +18,22 @@ En el escritorio de tu máquina Debian conseguirás una carpeta llamada `cyberse
 
 Si todo sale bien, en la terminal verás un mensaje confirmándote que los datos fueron enviados. 
 
-## 3. Ejecuta la prueba
+## 3. Carga tus resultados
 
-Una vez ejecutado el script con éxito, podrás ejecutar la prueba para validar tu instalación de Windows en VirtualBox.
+Una vez ejecutado el script con éxito, podrás cargar tus resultados. Para hacerlo debes generar un commit de este repositorio y subir los cambios a github.
 
-![Script Windows](../../.learn/assets/script-test.png)
+El primer paso es ir al icono de control de version y generar un nuevo commit. Para ello debes colocar un mensaje y hacer click en el botton `Commit`
+
+![Generar commit](../../.learn/assets/commit.png)
+
+Probablemente te pida que aceptes agregar los cambios recientes a tu commit. Puedes omitir esta acción en el futuro se seleccionas la opcion `Always`
+
+![Aceptar stage de cambios](../../.learn/assets/accept-stage.png)
+
+Por ultimo vas a hacer un push para subir los cambios de tu instancia local hacia github
+
+![Hacer push](../../.learn/assets/push.png)
 
 ## 4. ¡Listo!
-
-Si lograste pasar las pruebas, ya has creado una red NAT en VirtualBox y has conectado una maquina virtual Debian y otra Windows entre sí con esta red. De esta forma podrás experimentar con escenarios que pongan a prueba tus habilidades de ciberseguridad.
 
 Si tienes algún problema no dudes en recurrir a un mentor o a los demás canales de apoyo que te ofrece 4Geeks.
