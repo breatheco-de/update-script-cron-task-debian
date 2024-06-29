@@ -19,7 +19,7 @@ authors: ["arnaldoperez"]
 
 Para esta práctica debes importar una máquina virtual que hemos preparado para ti. Viene con Debian instalado y tiene algunas configuraciones básicas que se utilizarán a lo largo del bootcamp. Por lo demás es una máquina Debian normal como cualquier otra, y será un espacio importante donde aprenderás a utilizar sistemas GNU/Linux de forma segura para su uso en entornos de red como servidor.
 
-[Descarga aquí](https://drive.google.com/file/d/1MiV1F_W9TWsP0saKF_IMTahSs4bwrFe7/view?usp=drive_link) el fichero que debes importar a VirtualBox para crear la máquina virtual Debian. Es un fichero pesado, por lo que es recomendable descargarlo con antelación para ahorrar tiempo a la hora de realizar la práctica.
+[Descarga aquí](https://storage.googleapis.com/breathecode/virtualbox/deb.ova) el fichero que debes importar a VirtualBox para crear la máquina virtual Debian. Es un fichero pesado, por lo que es recomendable descargarlo con antelación para ahorrar tiempo a la hora de realizar la práctica.
 
 > **Informacion de acceso la máquina Debian**<br>
 **Usuario**: deb<br>
