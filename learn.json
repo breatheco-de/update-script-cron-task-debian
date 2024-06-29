@@ -1,11 +1,10 @@
 {
-  "language": "node",
   "title": {
     "us": "Creating an update system script for Debian",
     "es": "Creando un script de actualizar el sistema para Debian"
   },
   "grading": "isolated",
-  "difficulty": "easy",
+  "difficulty": "beginner",
   "duration": 2,
   "description":  {
     "us": "Creating an update system script for Debian",
