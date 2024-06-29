@@ -10,6 +10,7 @@
     "us": "Creating an update system script for Debian",
     "es": "Creando un script de actualizar el sistema para Debian"
   },
+  "preview": "https://raw.githubusercontent.com/4GeeksAcademy/update-script-cron-task-debian/master/.learn/assets/preview-update-script.png",
   "slug": "creating-an-update-system-script-for-debian",
   "gitpod": true,
   "projectType": "tutorial",
