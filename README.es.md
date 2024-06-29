@@ -52,22 +52,11 @@ Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
 
 ```bash
 $ npm i learnpack -g
-$ learnpack plugins:install learnpack-html
 ```
 
-2. Descarga estos ejercicios en particular usando LearnPack y luego `cd` para entrar en la carpeta:
+> Nota: Una vez que termines de descargar, entral al directorio del projecto y ejecuta learnpack
 
 ```bash
-$ learnpack download html-forms-tutorial-exercises
-$ cd html-forms-tutorial-exercises
-```
-
-> Nota: Una vez que termines de descargar, encontrarás una carpeta "exercises" que contiene todos los ejercicios.
-
-3. Inicializa el tutorial/ejercicios ejecutando el siguiente comando en el mismo nivel donde se encuentra tu archivo learn.json:
-
-```bash
-$ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 <!-- hide -->
