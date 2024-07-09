@@ -19,7 +19,7 @@
   },
   "repository": "https://github.com/4GeeksAcademy/update-script-cron-task-debian",
   "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-  "technologies": ["cybersecurity", "linux"],
+  "technologies": ["cybersecurity", "linux", "ciberseguridad"],
   "graded": true,
   "localhostOnly": true
 }
