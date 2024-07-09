@@ -10,14 +10,9 @@
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/update-script-cron-task-debian/blob/master/README.es.md)*
 <!-- endhide -->
 
-For this practice you must import a virtual machine that we have prepared for you. It comes with Debian installed and it has some basic settings that will be used along the bootcamp. Otherwise is a regular Debian machine like any other, and it will be an important space where you'll learn how to use GNU/Linux systems in a secure way for it use in network environments as a server.
+For this practice, we will continue to work on the Debian virtual machine from previous projects.
 
-[Download here](https://storage.googleapis.com/breathecode/virtualbox/deb.ova) the file that you must import to VirtualBox to create de Debian virtual machine. It is a heavy file, so it is advisable to download it in advance to save time when doing the practice.
-
-> **Information to access the Debian machine**<br>
-**User**: deb<br>
-**Password**: 123456<br>
-**RootPassword**: 123456
+This machine comes with Debian installed and it has some basic settings that will be used along the bootcamp. If you don't have it already, click here to access the [Debian virtual machine file and installation instructions](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine).
 
 <!-- hide -->
 ## Before you start...
@@ -28,17 +23,7 @@ For this practice you must import a virtual machine that we have prepared for yo
 
 ## 🌱 How to start this project.
 
-First fork the repo [4GeeksAcademy/update-script-cron-task-debian](https://github.com/4GeeksAcademy/update-script-cron-task-debian/fork). You'll need your own fork of this repo in order to deliver your results. After that you have a couple of options...
-
-### One click installation (recommended):
-
-Then you can open these exercises in just a few seconds by clicking `<> Code` and then `Create codespace`.
-
-> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically, you can try typing on your terminal: `$ learnpack start`
-
-### Local Installation
-
-Clone this repository in your local environment and follow the steps below:
+Clone this repository inside the local Debian virtual machine environment and follow the steps below:
 
 1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for learnpack, make sure you also have node.js 14:
 
