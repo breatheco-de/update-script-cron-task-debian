@@ -70,3 +70,6 @@ if [ ! -z "$3" ]; then
   echo "$data"
 fi
 echo "_______________________________________________________"
+
+# Save data to report.json
+echo "$data" > report.json
