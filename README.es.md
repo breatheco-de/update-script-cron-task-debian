@@ -5,9 +5,9 @@ tags: ["ciberseguridad"]
 authors: ["arnaldoperez"]
 ---
 
+<!-- hide -->
 # Networking on VirtualBox
 
-<!-- hide -->
 > By [@arnaldoperez](https://github.com/arnaldoperez) and [other contributors](https://github.com/4GeeksAcademy/update-script-cron-task-debian/contributors) at [4Geeks Academy](https://4geeksacademy.co/)
 
 ![last commit](https://img.shields.io/github/last-commit/4geeksacademy/installing-windows-on-virtual-machine)
@@ -17,14 +17,7 @@ authors: ["arnaldoperez"]
 *These instructior [are also available in english](https://github.com/4GeeksAcademy/update-script-cron-task-debian/blob/master/README.md)*
 <!-- endhide -->
 
-Para esta práctica debes importar una máquina virtual que hemos preparado para ti. Viene con Debian instalado y tiene algunas configuraciones básicas que se utilizarán a lo largo del bootcamp. Por lo demás es una máquina Debian normal como cualquier otra, y será un espacio importante donde aprenderás a utilizar sistemas GNU/Linux de forma segura para su uso en entornos de red como servidor.
-
-[Descarga aquí](https://storage.googleapis.com/breathecode/virtualbox/deb.ova) el fichero que debes importar a VirtualBox para crear la máquina virtual Debian. Es un fichero pesado, por lo que es recomendable descargarlo con antelación para ahorrar tiempo a la hora de realizar la práctica.
-
-> **Informacion de acceso la máquina Debian**<br>
-**Usuario**: deb<br>
-**Clave**: 123456<br>
-**ClaveRoot**: 123456
+Para esta práctica debes continuar usando la misma maquina debian de los proyectos anteriores, si no tienes la máquina puedes descargar la [imagen y los archivos y procedimiento de instalacion en el siguiente enlace](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine).
 
 <!-- hide -->
 
@@ -36,22 +29,12 @@ Para esta práctica debes importar una máquina virtual que hemos preparado para
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
-Primero crea un fork del repo [4GeeksAcademy/update-script-cron-task-debian](https://github.com/4GeeksAcademy/update-script-cron-task-debian/fork). NEcesitarás tu propio fork para poder entregar tus resultados. Luego de eso tienes un par de opciones
+Clona este mismo repositorio en tu maquina virtual de Debian y sigue los siguientes pasos:
 
-### Instalación en un clic (recomendado)
-
-Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/html-forms-tutorial-exercises) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/html-forms-tutorial-exercises.git).
-
-> Una vez ya tengas abierto VSCode, los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
-
-### Instalación local:
-
-Clona el repositorio en tu ambiente local y sigue los siguientes pasos:
-
-1. Instala LearnPack, el package manager para tutoriales de aprendizaje y el HTML compiler plugin para LearnPack, asegúrate también de tener node.js 14+:
+1. Instala LearnPack, el package manager para tutoriales de aprendizaje y el HTML compiler plugin para LearnPack, asegúrate también de tener node.js 16+:
 
 ```bash
-$ npm i learnpack -g
+$ npm i @learnpack/learnpack -g
 ```
 
 > Nota: Una vez que termines de descargar, entral al directorio del projecto y ejecuta learnpack
