@@ -16,7 +16,7 @@
 
 Para esta práctica debes continuar usando la misma maquina debian de los proyectos anteriores, si no tienes la máquina puedes descargar la [imagen y los archivos y procedimiento de instalacion en el siguiente enlace](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine).
 
-<onlyfor saas="true" withBanner="true">
+<onlyfor saas="true" withBanner="false">
 
 ## 🌱 ¿Cómo empezar este proyecto?
 
