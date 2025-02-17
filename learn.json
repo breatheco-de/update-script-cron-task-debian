@@ -7,16 +7,13 @@
 	"difficulty": "beginner",
 	"duration": 2,
 	"description":  {
-		"us": "Creating an update system script for Debian",
-		"es": "Creando un script de actualizar el sistema para Debian"
+		"us": "Developing a script to automate the update process on Debian, ensuring the system stays secure and up to date. This project involves configuring scheduled tasks using cron, managing package updates, and optimizing system maintenance.",
+		"es": "Desarrollo de un script para automatizar el proceso de actualización en Debian, asegurando que el sistema se mantiene seguro y actualizado. Este proyecto implica configurar tareas programadas usando cron, gestionar actualizaciones de paquetes y optimizar el mantenimiento del sistema."
 	},
 	"preview": "https://raw.githubusercontent.com/4GeeksAcademy/update-script-cron-task-debian/master/.learn/assets/preview-update-script.png",
 	"slug": "creating-an-update-system-script-for-debian",
 	"gitpod": true,
 	"projectType": "tutorial",
-	"telemetry": {
-		"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-	},
 	"repository": "https://github.com/4GeeksAcademy/update-script-cron-task-debian",
 	"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 	"technologies": ["cybersecurity", "linux", "ciberseguridad"],
@@ -31,5 +28,8 @@
 	},
 	"editor": {
         	"version": "4.0.0"
-    	}
+    	},
+	"telemetry": {
+	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=1625"
+	}
 }
