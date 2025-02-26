@@ -18,7 +18,7 @@ For this practice, we will continue to work on the Debian virtual machine from p
 
 This machine comes with Debian installed and it has some basic settings that will be used along the bootcamp. If you don't have it already, click here to access the [Debian virtual machine file and installation instructions](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine).
 
-<onlyfor saas="false" withBanner="false">
+<how-to-start>
 
 ## 🌱 How to start this project.
 
@@ -35,7 +35,7 @@ $ npm i @learnpack/learnpack -g
 ```bash
 $ learnpack start
 ```
-</onlyfor>
+</how-to-start>
 
 <!-- hide -->
 
