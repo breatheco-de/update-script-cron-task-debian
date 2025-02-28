@@ -8,18 +8,17 @@
 [![build by developers](https://img.shields.io/twitter/follow/4geeksacademy?style=social&logo=twitter)](https://twitter.com/4geeksacademy)
 
 *Estas instrucciones [están disponibles en 🇪🇸 español](https://github.com/4GeeksAcademy/update-script-cron-task-debian/blob/master/README.es.md)*
+
+## Before you start...
+
+> We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
 <!-- endhide -->
 
 For this practice, we will continue to work on the Debian virtual machine from previous projects.
 
 This machine comes with Debian installed and it has some basic settings that will be used along the bootcamp. If you don't have it already, click here to access the [Debian virtual machine file and installation instructions](https://4geeks.com/docs/start/cybersecurity-virtual-machines#debian-virtual-machine).
 
-<!-- hide -->
-## Before you start...
-
-> We need you! These exercises are built and maintained in collaboration with contributors such as yourself. If you find any bugs or misspellings please contribute and/or report them.
-
-<!-- endhide -->
+<how-to-start>
 
 ## 🌱 How to start this project.
 
@@ -36,7 +35,7 @@ $ npm i @learnpack/learnpack -g
 ```bash
 $ learnpack start
 ```
-
+</how-to-start>
 
 <!-- hide -->
 

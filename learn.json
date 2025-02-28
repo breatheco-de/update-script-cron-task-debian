@@ -7,13 +7,18 @@
 	"difficulty": "beginner",
 	"duration": 2,
 	"description":  {
-		"us": "Developing a script to automate the update process on Debian, ensuring the system stays secure and up to date. This project involves configuring scheduled tasks using cron, managing package updates, and optimizing system maintenance.",
-		"es": "Desarrollo de un script para automatizar el proceso de actualización en Debian, asegurando que el sistema se mantiene seguro y actualizado. Este proyecto implica configurar tareas programadas usando cron, gestionar actualizaciones de paquetes y optimizar el mantenimiento del sistema."
+		"us": "Create a system update script for Debian that automates keeping your operating system up to date. This practice will help you manage updates efficiently, ensuring your system stays secure and optimized. You’ll write a script that updates packages and can be scheduled as a cron task for automation.",
+		"es": "Crea un script de actualización del sistema para Debian que automatice el proceso de mantener tu sistema operativo al día. Esta práctica te ayudará a gestionar las actualizaciones de manera eficiente, asegurando que tu sistema se mantenga seguro y optimizado. Escribirás un script que actualiza paquetes y puede programarse como una tarea cron."
 	},
 	"preview": "https://raw.githubusercontent.com/4GeeksAcademy/update-script-cron-task-debian/master/.learn/assets/preview-update-script.png",
 	"slug": "creating-an-update-system-script-for-debian",
 	"gitpod": true,
+	"template_url": "self",
 	"projectType": "tutorial",
+	"autoPlay": "true",
+	"telemetry": {
+		"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=1625"
+	},
 	"repository": "https://github.com/4GeeksAcademy/update-script-cron-task-debian",
 	"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
 	"technologies": ["cybersecurity", "linux", "ciberseguridad"],
@@ -28,8 +33,5 @@
 	},
 	"editor": {
         	"version": "4.0.0"
-    	},
-	"telemetry": {
-	"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=1625"
-	}
+    	}
 }
