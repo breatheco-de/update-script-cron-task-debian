@@ -1,4 +1,4 @@
-# `05` Valida tu trabajo
+# `04` Valida tu trabajo
 
 Este paso consiste en ejecutar un script de verificación para validar lo que se ha solicitado en esta práctica, para hacerlo sigue los pasos a continuación:
 
